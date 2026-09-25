@@ -1,5 +1,4 @@
-# SOBRE
-MVP em desenvolvimento junto com alunos da TURMA B. 
+# MVP em desenvolvimento junto com alunos da TURMA B. 
 
 O TecPDV é um sistema de Ponto de Venda (PDV) para controle de vendas, produtos e estoque, substituindo processos manuais ou planilhas por uma ferramenta única, simples e confiável.
 
