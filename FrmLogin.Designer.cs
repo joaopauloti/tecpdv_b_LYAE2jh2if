@@ -1,5 +1,5 @@
 ﻿namespace SistemaTecPDV
-{
+{ 
     partial class FrmLogin
     {
         /// <summary>

@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 using SistemaTecPDV.Dados;
-
+ 
 namespace SistemaTecPDV
 {
     public partial class FrmLogin : Form
@@ -55,7 +55,7 @@ namespace SistemaTecPDV
                     "WHERE Login=@login AND " +
                     "SenhaHash=@senhaHash;";
                 cmd.Parameters.AddWithValue(
-                    "@login", usuario);
+                    "@login", usuario); 
                 cmd.Parameters.AddWithValue(
                     "@senhaHash", senhaHash);
                 var resultado = cmd.ExecuteScalar();
