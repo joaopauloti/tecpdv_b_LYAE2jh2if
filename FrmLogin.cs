@@ -66,9 +66,11 @@ namespace SistemaTecPDV
 
                     // + a partir de agora, abrimos o Cadastro de
                     // + Produtos e escondemos a tela de login:
-                    this.Hide();
-                    var telaProdutos = new FrmProdutos();
-                    telaProdutos.Show();
+                    //this.Hide();
+                    //var telaProdutos = new FrmProdutos();
+                    //telaProdutos.Show();
+                    MessageBox.Show($"Bem-vindo(a), {resultado}!");
+
                 }
                 else
                 {
